@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Numerics;
 using Dalamud.Interface.Internal;
 using Dalamud.Interface.Utility;
@@ -43,6 +43,7 @@ public class MainWindow : Window, IDisposable
         ImGui.Spacing();
 
         ImGui.Text("Have a goat:");
+        ImGui.Text("Gruz says hi");
         var goatImage = Plugin.TextureProvider.GetFromFile(GoatImagePath).GetWrapOrDefault();
         if (goatImage != null)
         {
